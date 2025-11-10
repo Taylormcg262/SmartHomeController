@@ -1,16 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SmartHomeController
 {
-    internal class User
+    public class User
     {
-        public void main (string[] args)
+        private int userid;
+        private string userName;
+        private string ContactInfo;
+
+        public int Userid
         {
-            Console.WriteLine("Hello World");
+            get { return userid; }
+            set { userid = value; }
+        }
+
+        public string UserName
+        {
+            get { return userName; }
+            set { userName = value; }
+        }
+
+        public string Contactinfo
+        {
+            get { return ContactInfo; }
+            set { ContactInfo = value; }
         }
     }
 }
