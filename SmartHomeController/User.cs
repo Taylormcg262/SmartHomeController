@@ -8,5 +8,9 @@ namespace SmartHomeController
 {
     internal class User
     {
+        public void main (string[] args)
+        {
+            Console.WriteLine("Hello World");
+        }
     }
 }
